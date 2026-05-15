@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Dashboard</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding-top:100px;
+        }
+
+        a{
+            color:#3b82f6;
+            text-decoration:none;
+            font-size:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Welcome</h1>
+
+<h2 th:text="${username}"></h2>
+
+<br>
+
+<a href="/">
+    Go To Store
+</a>
+
+</body>
+</html>
